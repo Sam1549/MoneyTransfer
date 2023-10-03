@@ -3,10 +3,9 @@ package com.example.moneytransfer.model;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
-import org.springframework.validation.annotation.Validated;
+
 
 
 @Data
@@ -24,4 +23,5 @@ public class Transfer {
     private final String cardToNumber;
     @Valid
     private final Amount amount;
+
 }

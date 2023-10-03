@@ -1,118 +1,132 @@
-18:30:39.950 [http-nio-5500-exec-1] ERROR - Прошла операция
-18:32:35.863 [http-nio-5500-exec-1] INFO  - Прошла операция
-18:51:33.421 INFO  - Прошла операция
-18:55:40.782 INFO  - Прошла операция
-18:59:07.294 INFO  - Прошла операция
-20:32:32.991 INFO  - Прошла операция
-20:32:40.192 INFO  - Прошла операция
-20:32:50.495 INFO  - Прошла операция
-20:53:54.817 INFO  - 11111 111135454544542 Номер карты отправителя должен быть 16 символов 11111
-20:58:32.725 INFO  -  [111135454544542] Номер карты отправителя должен быть 16 символов 
-21:07:38.221 WARN  - java.util.stream.ReferencePipeline$Head@550d0cc4
-21:08:40.851 WARN  - java.util.stream.ReferencePipeline$3@21bd2095
-21:11:44.354 WARN  - java.util.stream.ReferencePipeline$3@73d0d82e
-21:12:38.601 WARN  - {errors=[Номер карты получателя должен быть 16 символов, Номер карты отправителя должен быть 16 символов]}
-21:13:09.639 WARN  - {errors=[Номер карты отправителя должен быть 16 символов]}
-21:21:33.339 WARN  - java.util.stream.ReferencePipeline$Head@79c78cf2
-21:27:02.848 WARN  - transfer
-21:28:57.901 WARN  - {transfer=Transfer(cardFromNumber=111135454544542, cardFromValidTill=01/28, cardFromCVV=340, cardToNumber=1233444455550000, amount=Amount(value=15000, currency=RUR)), org.springframework.validation.BindingResult.transfer=org.springframework.validation.BeanPropertyBindingResult: 1 errors
-Field error in object 'transfer' on field 'cardFromNumber': rejected value [111135454544542]; codes [Size.transfer.cardFromNumber,Size.cardFromNumber,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [transfer.cardFromNumber,cardFromNumber]; arguments []; default message [cardFromNumber],16,16]; default message [Номер карты отправителя должен быть 16 символов]}
-21:30:48.129 WARN  - cardFromNumber
-21:31:02.998 WARN  - cardToNumber
-21:31:16.520 WARN  - cardToNumber
-21:38:01.904 INFO  -  [1111354545445422] Номер карты получателя должен быть 16 символов 
-21:39:25.477 WARN  - [Field error in object 'transfer' on field 'cardToNumber': rejected value [123344445555000]; codes [Size.transfer.cardToNumber,Size.cardToNumber,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [transfer.cardToNumber,cardToNumber]; arguments []; default message [cardToNumber],16,16]; default message [Номер карты получателя должен быть 16 символов]]
-21:41:30.360 WARN  - []
-12:35:26.533 INFO  - [cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-12:35:41.853 INFO  - [cardFromNumber:111135454544542]-Номер карты отправителя должен быть 16 символов[cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-12:38:18.524 INFO  - [cardFromNumber:111135454544542]-Номер карты отправителя должен быть 16 символов
-12:38:18.524 INFO  - [cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-12:39:25.062 INFO  - [cardFromNumber:111135454544542]-Номер карты отправителя должен быть 16 символов
-
-12:39:25.063 INFO  - [cardFromNumber:111135454544542]-Номер карты отправителя должен быть 16 символов
-[cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-
-12:56:58.433 INFO  - [cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-java.io.PrintStream@6db3769
-12:56:58.433 INFO  - [cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-java.io.PrintStream@6db3769[cardFromNumber:111135454544542]-Номер карты отправителя должен быть 16 символов
-java.io.PrintStream@6db3769
-12:58:08.491 INFO  - [cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-java.io.PrintStream@496eb046
-12:58:08.492 INFO  - [cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-java.io.PrintStream@496eb046[cardFromNumber:111135454544542]-Номер карты отправителя должен быть 16 символов
-java.io.PrintStream@496eb046
-12:58:40.758 INFO  - [cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-java.io.PrintStream@5ee98ead
-12:58:40.758 INFO  - [cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-java.io.PrintStream@5ee98ead[cardFromNumber:111135454544542]-Номер карты отправителя должен быть 16 символов
-java.io.PrintStream@5ee98ead
-13:02:28.231 INFO  - [cardFromN umber:111135454544542]-Номер карты отправителя должен быть 16 символов
-
-13:02:28.232 INFO  - [cardFromN  umber:111135454544542]-Номер карты отправителя должен быть 16 символов
-[cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-
-13:05:35.297 INFO  - [cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-             
-13:05:35.297 INFO  - [cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-             [cardFromNumber:111135454544542]-Номер карты отправителя должен быть 16 символов
-             
-13:06:00.331 INFO  - [cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-                   
-13:06:00.332 INFO  - [cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-                   [cardFromNumber:111135454544542]-Номер карты отправителя должен быть 16 символов
-                   
-13:07:16.715 INFO  - [cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-                     
-13:07:16.715 INFO  - [cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-                     [cardFromNumber:111135454544542]-Номер карты отправителя должен быть 16 символов
-                     
-13:07:48.832 INFO  - [cardToNumber:123344445555000]-Номер карты получателя должен быть 16 символов
-                     [cardFromNumber:111135454544542]-Номер карты отправителя должен быть 16 символов
-                     
-13:08:01.547 INFO  - [cardFromNumber:111135454544542]-Номер карты отправителя должен быть 16 символов
-                     
-13:14:26.128 INFO  - [cardFromNumber:111135454544542]-Номер карты отправителя должен быть 16 символов
-                     
-13:15:21.687 INFO  - [cardFromCVV:34]-размер должен находиться в диапазоне от 3 до 3
-                     
-14:08:09.856 INFO  - [cardFromCVV : 34] - размер CVC / CVC2 должен находиться в диапазоне от 3 до 3
-14:08:21.180 INFO  - [cardFromNumber : 111135454544542] - Номер карты отправителя должен быть 16 символов
-14:08:21.181 INFO  - [cardFromCVV : 34] - размер CVC / CVC2 должен находиться в диапазоне от 3 до 3
-14:09:30.730 INFO  - [cardFromCVV : 34] - размер CVC / CVC2 должен находиться в диапазоне от 3 до 3
-14:09:30.731 INFO  - [cardFromNumber : 111135454544542] - Номер карты отправителя должен быть 16 символов
-14:09:43.972 INFO  - Прошла операция
-14:12:44.319 INFO  - Прошла операция
-14:25:19.589 INFO  - Прошла операция
-14:36:46.366 INFO  - [amount.value : -1] - Сумма не может быть меньше 1
-14:40:48.097 INFO  - [[amount.value : -1] - Сумма не может быть меньше 1]
-14:41:21.659 INFO  - [[cardToNumber : 123344445555000] - Номер карты получателя должен быть 16 символов, [cardFromNumber : 111135454544542] - Номер карты отправителя должен быть 16 символов]
-14:46:05.212 INFO  - [cardToNumber : 123344445555000] - Номер карты получателя должен быть 16 символов
-14:46:05.212 INFO  - [cardFromNumber : 111135454544542] - Номер карты отправителя должен быть 16 символов
-17:28:26.600 INFO  - [cardFromNumber : 111135454544542] - Номер карты отправителя должен быть 16 символов
-17:28:26.601 INFO  - [cardToNumber : 123344445555000] - Номер карты получателя должен быть 16 символов
-17:40:22.890 INFO  - [cardFromNumber : 111135454544542] - Номер карты отправителя должен быть 16 символов
-17:40:22.891 INFO  - [cardToNumber : 123344445555000] - Номер карты получателя должен быть 16 символов
-17:40:32.897 INFO  - [cardToNumber : 123344445555000] - Номер карты получателя должен быть 16 символов
-18:01:06.224 INFO  - [cardToNumber : 123344445555000] - Номер карты получателя должен быть 16 символов
-18:01:16.368 INFO  - [cardFromNumber : 111135454544542] - Номер карты отправителя должен быть 16 символов
-18:01:16.369 INFO  - [cardToNumber : 123344445555000] - Номер карты получателя должен быть 16 символов
-18:01:34.805 INFO  - [cardToNumber : 123344445555000] - Номер карты получателя должен быть 16 символов
-18:01:39.297 INFO  - [cardToNumber : 123344445555000] - Номер карты получателя должен быть 16 символов
-18:01:39.297 INFO  - [cardFromCVV : 34] - размер CVC / CVC2 должен находиться в диапазоне от 3 до 3
-18:01:47.896 INFO  - [cardToNumber : 123344445555000] - Номер карты получателя должен быть 16 символов
-18:06:52.376 INFO  - [cardToNumber : 123344445555000] - Номер карты получателя должен быть 16 символов
-18:07:00.222 INFO  - [cardToNumber : 123344445555000] - Номер карты получателя должен быть 16 символов
-18:07:00.222 INFO  - [cardFromNumber : 111135454544542] - Номер карты отправителя должен быть 16 символов
-18:08:17.856 INFO  - [cardToNumber : 123344445555000] - Номер карты получателя должен быть 16 символов
-18:08:17.857 INFO  - [cardFromNumber : 111135454544542] - Номер карты отправителя должен быть 16 символов
-18:09:40.847 INFO  - [cardToNumber : 123344445555000] - Номер карты получателя должен быть 16 символов
-18:09:40.847 INFO  - [cardFromNumber : 111135454544542] - Номер карты отправителя должен быть 16 символов
-18:09:42.490 INFO  - [cardFromNumber : 111135454544542] - Номер карты отправителя должен быть 16 символов
-18:09:42.491 INFO  - [cardToNumber : 123344445555000] - Номер карты получателя должен быть 16 символов
-18:09:44.608 INFO  - [cardToNumber : 123344445555000] - Номер карты получателя должен быть 16 символов
-18:09:44.609 INFO  - [cardFromNumber : 111135454544542] - Номер карты отправителя должен быть 16 символов
-18:09:49.217 INFO  - [cardFromNumber : 111135454544542] - Номер карты отправителя должен быть 16 символов
-18:09:49.217 INFO  - [cardFromCVV : 34] - размер CVC / CVC2 должен находиться в диапазоне от 3 до 3
-18:09:49.218 INFO  - [cardToNumber : 123344445555000] - Номер карты получателя должен быть 16 символов
-18:10:01.756 INFO  - Прошла операция
+13:44:51.391 INFO  - Прошла операция
+13:44:51.393 INFO  - CVV должен состоять из 3 цифр
+13:45:22.426 INFO  - [[cardFromCVV : 3440] - размер CVC / CVC2 должен находиться в диапазоне от 3 до 3]
+13:45:31.953 INFO  - Прошла операция
+13:45:31.953 INFO  - CVV должен состоять из 3 цифр
+13:45:56.674 INFO  - Прошла операция
+13:45:56.675 INFO  - CVV должен состоять из 3 цифр
+13:47:19.636 INFO  - 1111354545445422 не найдена в базе данных
+13:48:19.108 INFO  - 1111111111111111 не найдена в базе данных
+13:52:04.408 INFO  - [[cardFromCVV : 11] - размер CVC / CVC2 должен находиться в диапазоне от 3 до 3]
+13:52:20.161 INFO  - CVV должен состоять из 3 цифр
+13:52:31.328 INFO  - 1111111111111121 не найдена в базе данных
+13:53:13.799 INFO  - 2222222222222122 не найдена в базе данных
+15:14:59.112 INFO  - Недостаточно средств для перевода
+15:15:11.053 INFO  - Недостаточно средств для перевода
+15:15:21.763 INFO  - Недостаточно средств для перевода
+15:15:37.917 INFO  - Недостаточно средств для перевода
+15:15:42.909 INFO  - Недостаточно средств для перевода
+15:15:48.528 INFO  - [[amount.value : 0] - Сумма не может быть меньше 1]
+15:15:53.225 INFO  - Недостаточно средств для перевода
+15:17:07.946 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1, currency RUR, commission 0
+15:17:38.174 INFO  - Неверный код подтверждения
+15:17:44.940 INFO  - Неверный код подтверждения
+15:17:49.579 INFO  - Неверный код подтверждения
+15:18:27.852 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1, currency RUR, commission 0
+15:18:35.707 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1, currency RUR, commission 0
+15:19:02.848 INFO  - Зарегестрирован новый перевод: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 500, currency RUR, commission 5
+15:19:59.977 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1, currency RUR, commission 0
+15:21:01.685 INFO  - Перевод подтвержден: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 500, currency RUR, commission 5
+15:24:39.636 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 500, currency RUR, commission 5
+15:24:50.522 INFO  - Неверный id операции
+15:24:56.787 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 500, currency RUR, commission 5
+15:30:14.077 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 500, currency RUR, commission 5
+15:30:16.930 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 500, currency RUR, commission 5
+15:33:04.337 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 500, currency RUR, commission 5
+15:33:06.465 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 500, currency RUR, commission 5
+15:37:43.775 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 500, currency RUR, commission 5
+15:37:46.380 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 500, currency RUR, commission 5
+15:38:06.117 INFO  - Зарегестрирован новый перевод: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9495, currency RUR, commission 94
+15:38:31.350 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 500, currency RUR, commission 5
+15:39:16.300 INFO  - Перевод подтвержден: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9495, currency RUR, commission 94
+15:45:23.346 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9900, currency RUR, commission 99
+15:45:34.250 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9900, currency RUR, commission 99
+15:45:53.335 INFO  - Недостаточно средств для перевода
+15:45:59.227 INFO  - Недостаточно средств для перевода
+15:46:03.187 INFO  - Зарегестрирован новый перевод: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1, currency RUR, commission 0
+15:46:06.970 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9900, currency RUR, commission 99
+15:46:49.526 INFO  - Недостаточно средств для перевода
+15:46:59.258 INFO  - Недостаточно средств для перевода
+15:47:06.341 INFO  - Недостаточно средств для перевода
+15:47:11.321 INFO  - Недостаточно средств для перевода
+15:47:15.356 INFO  - Недостаточно средств для перевода
+15:47:21.105 INFO  - Недостаточно средств для перевода
+15:47:27.900 INFO  - Недостаточно средств для перевода
+15:47:59.323 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9901, currency RUR, commission 99
+15:48:12.209 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9901, currency RUR, commission 99
+15:49:11.254 INFO  - Недостаточно средств для перевода
+15:49:18.345 INFO  - Недостаточно средств для перевода
+15:49:50.210 INFO  - Недостаточно средств для перевода
+15:50:08.460 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100, currency RUR, commission 1
+15:50:08.473 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100, currency RUR, commission 1
+15:50:59.855 INFO  - 1111111111111112 не найдена в базе данных
+15:51:17.425 INFO  - Номер карты отправителя и получателя должны быть разными
+15:52:08.391 INFO  - Зарегестрирован новый перевод: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100, currency RUR, commission 1
+15:52:08.400 INFO  - Перевод подтвержден: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100, currency RUR, commission 1
+18:04:26.971 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100.0, currency RUR, commission 1.0
+18:04:27.000 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100.0, currency RUR, commission 1.0
+18:06:49.255 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100, currency RUR, commission 1
+18:06:49.292 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100, currency RUR, commission 1
+18:50:58.305 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100.0, currency RUR, commission 1.0
+18:50:58.332 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100.0, currency RUR, commission 1.0
+18:52:55.052 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100, currency RUR, commission 1.0
+18:52:55.081 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100, currency RUR, commission 1.0
+18:55:11.247 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100, currency RUR, commission 1
+18:55:11.278 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100, currency RUR, commission 1
+18:55:52.432 INFO  - Недостаточно средств для перевода
+18:55:57.477 INFO  - Зарегестрирован новый перевод: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000, currency RUR, commission 10
+18:55:57.495 INFO  - Перевод подтвержден: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000, currency RUR, commission 10
+19:04:06.019 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100.0, currency RUR, commission 0
+19:04:06.051 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1, currency RUR, commission 1.0
+19:06:08.794 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1, currency RUR, commission 0
+19:06:08.828 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1, currency RUR, commission 0
+19:06:46.284 INFO  - Недостаточно средств для перевода
+19:07:10.929 INFO  - Недостаточно средств для перевода
+19:07:24.058 INFO  - Зарегестрирован новый перевод: Operation id 2, CardFrom 2222222222222222, CardTo 1111111111111111, amount 1, currency RUR, commission 0
+19:07:24.070 INFO  - Перевод подтвержден: Operation id 2, CardFrom 2222222222222222, CardTo 1111111111111111, amount 1, currency RUR, commission 0
+19:07:52.420 INFO  - Недостаточно средств для перевода
+19:07:56.447 INFO  - Недостаточно средств для перевода
+19:08:04.311 INFO  - Недостаточно средств для перевода
+19:10:38.179 INFO  - Недостаточно средств для перевода
+19:14:39.561 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 2222222222222222, CardTo 1111111111111111, amount 1000.0, currency RUR, commission 10.0
+19:14:39.587 INFO  - Перевод подтвержден: Operation id 1, CardFrom 2222222222222222, CardTo 1111111111111111, amount 1000.0, currency RUR, commission 10.0
+19:16:15.063 INFO  - Зарегестрирован новый перевод: Operation id 2, CardFrom 2222222222222222, CardTo 1111111111111111, amount 545.0, currency RUR, commission 5.45
+19:16:15.077 INFO  - Перевод подтвержден: Operation id 2, CardFrom 2222222222222222, CardTo 1111111111111111, amount 545.0, currency RUR, commission 5.45
+19:17:35.375 INFO  - Недостаточно средств для перевода
+19:18:05.252 INFO  - Недостаточно средств для перевода
+19:18:20.353 INFO  - Недостаточно средств для перевода
+19:18:25.687 INFO  - Зарегестрирован новый перевод: Operation id 3, CardFrom 2222222222222222, CardTo 1111111111111111, amount 999.0, currency RUR, commission 9.99
+19:18:25.701 INFO  - Перевод подтвержден: Operation id 3, CardFrom 2222222222222222, CardTo 1111111111111111, amount 999.0, currency RUR, commission 9.99
+19:24:47.394 INFO  - Недостаточно средств для перевода
+19:25:16.062 INFO  - Недостаточно средств для перевода
+19:25:40.175 INFO  - Недостаточно средств для перевода
+19:26:13.288 INFO  - Недостаточно средств для перевода
+19:26:56.576 INFO  - Недостаточно средств для перевода
+19:29:32.034 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9000.0, currency RUR, commission 90.0
+19:29:32.075 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9000.0, currency RUR, commission 90.0
+19:32:52.546 INFO  - Недостаточно средств для перевода
+19:34:08.585 INFO  - Недостаточно средств для перевода
+19:34:10.832 INFO  - Недостаточно средств для перевода
+19:36:34.179 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9000.0, currency RUR, commission 90.0
+19:36:34.204 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9000.0, currency RUR, commission 90.0
+19:37:06.658 INFO  - Зарегестрирован новый перевод: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 5.0, currency RUR, commission 0.05
+19:37:27.558 INFO  - Перевод подтвержден: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 5.0, currency RUR, commission 0.05
+22:00:57.414 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1, currency RUR, commission 0
+22:00:57.445 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1, currency RUR, commission 0
+22:01:23.489 INFO  - Зарегестрирован новый перевод: Operation id 2, CardFrom 2222222222222222, CardTo 1111111111111111, amount 9000, currency RUR, commission 90
+22:01:23.503 INFO  - Перевод подтвержден: Operation id 2, CardFrom 2222222222222222, CardTo 1111111111111111, amount 9000, currency RUR, commission 90
+22:03:40.894 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 90, currency RUR, commission 0
+22:03:40.930 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 90, currency RUR, commission 0
+22:05:03.304 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9000, currency RUR, commission 90
+22:05:03.340 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9000, currency RUR, commission 90
+22:09:36.377 INFO  - Недостаточно средств для перевода
+22:13:42.212 INFO  - Недостаточно средств для перевода
+22:14:59.885 INFO  - Недостаточно средств для перевода
+22:16:29.345 INFO  - Недостаточно средств для перевода
+22:21:32.381 INFO  - Недостаточно средств для перевода
+22:23:18.643 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 90.0, currency RUR, commission 0.9
+22:23:18.662 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 90.0, currency RUR, commission 0.9
+22:24:03.634 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9800.0, currency RUR, commission 98.0
+22:24:03.655 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9800.0, currency RUR, commission 98.0
+22:26:05.268 INFO  - Зарегестрирован новый перевод: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100.0, currency RUR, commission 1.0
+22:26:05.278 INFO  - Перевод подтвержден: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100.0, currency RUR, commission 1.0

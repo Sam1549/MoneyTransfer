@@ -1,11 +1,9 @@
 package com.example.moneytransfer.exception;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
-import org.springframework.validation.FieldError;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 
-import java.util.Iterator;
 import java.util.List;
 
 @Data
@@ -13,10 +11,6 @@ import java.util.List;
 public class Error {
     private List<String> message;
     private String id;
-
-
-
-
 
     @Override
     public String toString() {
