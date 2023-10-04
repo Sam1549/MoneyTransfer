@@ -2,20 +2,24 @@ package com.example;
 
 import com.example.moneytransfer.MoneyTransferApplication;
 import com.example.moneytransfer.model.Amount;
+import com.example.moneytransfer.model.ConfirmInfo;
 import com.example.moneytransfer.model.Transfer;
 import com.example.moneytransfer.model.TransferResponse;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import com.github.dockerjava.api.model.ExposedPort;
+import com.github.dockerjava.api.model.HostConfig;
+import com.github.dockerjava.api.model.PortBinding;
+import com.github.dockerjava.api.model.Ports;
+import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
+import org.springframework.http.ResponseEntity;
 import org.testcontainers.containers.GenericContainer;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 
-@SpringBootTest(classes = MoneyTransferApplication.class,webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+@SpringBootTest(classes = MoneyTransferApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Testcontainers
 public class ContainerTest {
 
@@ -26,20 +30,35 @@ public class ContainerTest {
     TestRestTemplate restTemplate;
 
     @Container
-   private static final GenericContainer<?> app = new GenericContainer<>("app:latest").withExposedPorts(5500);
+    private static final GenericContainer<?> app = new GenericContainer<>("app:latest").withExposedPorts(5500);
+
 
     @BeforeAll
-    public static void setUp(){
+    public static void setUp() {
         app.start();
     }
+
     @AfterAll
-    public static void setDown(){
+    public static void setDown() {
         app.stop();
     }
 
+    @Order(1)
     @Test
-    public void appTransfer(){
-        TransferResponse response = restTemplate.postForObject("http://localhost:"+app.getMappedPort(5500) + "/transfer",TRANSFER,TransferResponse.class);
-        Assertions.assertEquals("1",response.getOperationId());
+    public void appTransfer() {
+        ResponseEntity<String> backendEntity = restTemplate.postForEntity(
+                "http://localhost:" + app.getMappedPort(5500) + "/transfer", TRANSFER, String.class);
+        String response = backendEntity.getBody();
+
+        Assertions.assertEquals("{\"operationId\":\"1\"}", response);
+    }
+
+    @Order(2)
+    @Test
+    void appConfirmOperationTest() {
+        ConfirmInfo confirmInfo = new ConfirmInfo("0000", "1");
+        ResponseEntity<String> entity = restTemplate.postForEntity("http://localhost:" + app.getMappedPort(5500) + "/confirmOperation", confirmInfo, String.class);
+
+        Assertions.assertEquals("{\"operationId\":\"1\"}", entity.getBody());
     }
 }

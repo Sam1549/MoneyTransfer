@@ -38,31 +38,31 @@ public class TransferRepositoryTest {
     private static final String OPERATION_ID = "1";
     private static final ConcurrentHashMap<String, Transfer> TRANSFER_LIST = new ConcurrentHashMap<>();
     private static final ConcurrentHashMap<String, Card> CARDS_LIST = new ConcurrentHashMap<>();
-    private static final ConfirmInfo CONFIRM_INFO = new ConfirmInfo(CODE,OPERATION_ID);
+    private static final ConfirmInfo CONFIRM_INFO = new ConfirmInfo(CODE, OPERATION_ID);
 
 
     @BeforeEach
-    public void setUp(){
-        CARDS_LIST.put(CARD_FROM.getNumber(),CARD_FROM);
-        CARDS_LIST.put(CARD_TO.getNumber(),CARD_TO);
-        TRANSFER_LIST.put(OPERATION_ID,VALID_TRANSFER);
-        ReflectionTestUtils.setField(transferRepository,"transferList",TRANSFER_LIST);
-        ReflectionTestUtils.setField(transferRepository,"cardsList",CARDS_LIST);
+    public void setUp() {
+        CARDS_LIST.put(CARD_FROM.getNumber(), CARD_FROM);
+        CARDS_LIST.put(CARD_TO.getNumber(), CARD_TO);
+        TRANSFER_LIST.put(OPERATION_ID, VALID_TRANSFER);
+        ReflectionTestUtils.setField(transferRepository, "transferList", TRANSFER_LIST);
+        ReflectionTestUtils.setField(transferRepository, "cardsList", CARDS_LIST);
     }
 
     @Test
-    public void addTransferTest(){
-        Mockito.when(validationData.validationTransfer(VALID_TRANSFER,CARDS_LIST)).thenReturn(true);
+    public void addTransferTest() {
+        Mockito.when(validationData.validationTransfer(VALID_TRANSFER, CARDS_LIST)).thenReturn(true);
 
         String result = transferRepository.addTransfer(VALID_TRANSFER).getOperationId();
 
-        Assertions.assertEquals(OPERATION_ID,result);
+        Assertions.assertEquals(OPERATION_ID, result);
     }
 
     @Test
-    public void confirmOperationTest(){
+    public void confirmOperationTest() {
         String result = transferRepository.confirmOperation(CONFIRM_INFO).getOperationId();
 
-        Assertions.assertEquals(OPERATION_ID,result);
+        Assertions.assertEquals(OPERATION_ID, result);
     }
 }

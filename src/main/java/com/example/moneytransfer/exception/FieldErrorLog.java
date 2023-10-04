@@ -33,6 +33,6 @@ public class FieldErrorLog {
 
     @Override
     public String toString() {
-        return String.format("[%s : %s] - %s",field,rejectedValue,defaultMessage);
+        return String.format("[%s : %s] - %s", field, rejectedValue, defaultMessage);
     }
 }

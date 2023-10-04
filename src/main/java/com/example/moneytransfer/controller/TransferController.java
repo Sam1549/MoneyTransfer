@@ -22,13 +22,11 @@ public class TransferController {
 
     @PostMapping("/transfer")
     public ResponseEntity<TransferResponse> tranferMoney(@RequestBody @Valid Transfer transfer) {
-//        return ResponseEntity.ok(new TransferResponse("1"));
         return ResponseEntity.ok(transferService.doTransfer(transfer));
     }
 
     @PostMapping("/confirmOperation")
     public ResponseEntity<TransferResponse> confirmTransfer(@RequestBody ConfirmInfo confirmInfo) {
-//        return ResponseEntity.ok(new TransferResponse("1"));
         return ResponseEntity.ok(transferService.doConfirm(confirmInfo));
     }
 }

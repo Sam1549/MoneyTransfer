@@ -38,7 +38,7 @@ public class TransferRepository {
                         confirmInfo.getOperationId(), transferList.get(confirmInfo.getOperationId()).getCardFromNumber(), transferList.get(confirmInfo.getOperationId()).getCardToNumber(), transferList.get(confirmInfo.getOperationId()).getAmount().getValue() / 100, transferList.get(confirmInfo.getOperationId()).getAmount().getCurrency(), (transferList.get(confirmInfo.getOperationId()).getAmount().getValue() / 100) / 100);
                 Card cardTo = cardsList.get(transferList.get(confirmInfo.getOperationId()).getCardToNumber());
                 Card cardFrom = cardsList.get(transferList.get(confirmInfo.getOperationId()).getCardFromNumber());
-                log.info("Баланс карт: {}: {}, {}: {} ",cardFrom.getNumber(),cardFrom.getAmount().getValue(),cardTo.getNumber(),cardTo.getAmount().getValue());
+                log.info("Баланс карт: {}: {}, {}: {} ", cardFrom.getNumber(), cardFrom.getAmount().getValue(), cardTo.getNumber(), cardTo.getAmount().getValue());
                 return new TransferResponse(confirmInfo.getOperationId());
             }
             throw new InvalidConfirmationDataException("Ошибка перевода");
