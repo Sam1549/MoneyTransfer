@@ -130,3 +130,140 @@
 22:24:03.655 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9800.0, currency RUR, commission 98.0
 22:26:05.268 INFO  - Зарегестрирован новый перевод: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100.0, currency RUR, commission 1.0
 22:26:05.278 INFO  - Перевод подтвержден: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100.0, currency RUR, commission 1.0
+22:34:24.875 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9000.0, currency RUR, commission 90.0
+22:34:24.895 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9000.0, currency RUR, commission 90.0
+22:34:24.896 INFO  - Баланс карт: Card(number=1111111111111111, validTill=01/25, cvv=111, amount=Amount(value=910.0, currency=RUR)): 910.0, Card(number=2222222222222222, validTill=01/25, cvv=222, amount=Amount(value=19000.0, currency=RUR)): 19000.0 
+22:35:51.034 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9000.0, currency RUR, commission 90.0
+22:35:51.052 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9000.0, currency RUR, commission 90.0
+22:35:51.052 INFO  - Баланс карт: 1111111111111111: 910.0, 2222222222222222: 19000.0 
+22:37:25.819 INFO  - Зарегестрирован новый перевод: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1111.0, currency RUR, commission 11.11
+22:37:25.828 INFO  - Перевод подтвержден: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1111.0, currency RUR, commission 11.11
+22:37:25.829 INFO  - Баланс карт: 1111111111111111: -212.1099999999999, 2222222222222222: 20111.0 
+22:38:09.970 INFO  - Недостаточно средств для перевода
+22:38:16.847 INFO  - Недостаточно средств для перевода
+22:38:22.857 INFO  - Недостаточно средств для перевода
+22:38:40.711 INFO  - Недостаточно средств для перевода
+22:38:48.144 INFO  - Недостаточно средств для перевода
+22:38:52.093 INFO  - Недостаточно средств для перевода
+22:39:36.326 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9800.0, currency RUR, commission 98.0
+22:39:36.348 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9800.0, currency RUR, commission 98.0
+22:39:36.349 INFO  - Баланс карт: 1111111111111111: 102.0, 2222222222222222: 19800.0 
+22:39:55.075 INFO  - Зарегестрирован новый перевод: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1111.0, currency RUR, commission 11.11
+22:39:55.085 INFO  - Перевод подтвержден: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1111.0, currency RUR, commission 11.11
+22:39:55.086 INFO  - Баланс карт: 1111111111111111: -1020.1099999999999, 2222222222222222: 20911.0 
+22:42:47.337 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9800.0, currency RUR, commission 98.0
+22:42:47.360 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9800.0, currency RUR, commission 98.0
+22:42:47.360 INFO  - Баланс карт: 1111111111111111: 102.0, 2222222222222222: 19800.0 
+22:43:05.816 INFO  - Зарегестрирован новый перевод: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1111.0, currency RUR, commission 11.11
+22:43:05.827 INFO  - Перевод подтвержден: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1111.0, currency RUR, commission 11.11
+22:43:05.827 INFO  - Баланс карт: 1111111111111111: -1020.1099999999999, 2222222222222222: 20911.0 
+22:43:28.584 INFO  - Недостаточно средств для перевода
+22:45:23.378 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9800.0, currency RUR, commission 98.0
+22:45:23.407 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9800.0, currency RUR, commission 98.0
+22:45:23.407 INFO  - Баланс карт: 1111111111111111: 102.0, 2222222222222222: 19800.0 
+22:46:11.012 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9800.0, currency RUR, commission 98.0
+22:46:11.034 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9800.0, currency RUR, commission 98.0
+22:46:11.035 INFO  - Баланс карт: 1111111111111111: 102.0, 2222222222222222: 19800.0 
+22:46:26.645 INFO  - Зарегестрирован новый перевод: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1111.0, currency RUR, commission 11.11
+22:46:26.656 INFO  - Перевод подтвержден: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1111.0, currency RUR, commission 11.11
+22:46:26.656 INFO  - Баланс карт: 1111111111111111: -1020.1099999999999, 2222222222222222: 20911.0 
+22:47:05.816 INFO  - Недостаточно средств для перевода
+22:47:10.912 INFO  - Недостаточно средств для перевода
+22:47:14.405 INFO  - Недостаточно средств для перевода
+22:47:17.622 INFO  - Недостаточно средств для перевода
+22:47:23.763 INFO  - Недостаточно средств для перевода
+22:47:34.718 INFO  - Зарегестрирован новый перевод: Operation id 3, CardFrom 2222222222222222, CardTo 1111111111111111, amount 20000.0, currency RUR, commission 200.0
+22:47:34.728 INFO  - Перевод подтвержден: Operation id 3, CardFrom 2222222222222222, CardTo 1111111111111111, amount 20000.0, currency RUR, commission 200.0
+22:47:34.728 INFO  - Баланс карт: 2222222222222222: 711.0, 1111111111111111: 18979.89 
+22:47:54.570 INFO  - Зарегестрирован новый перевод: Operation id 4, CardFrom 2222222222222222, CardTo 1111111111111111, amount 20000.0, currency RUR, commission 200.0
+22:47:54.582 INFO  - Перевод подтвержден: Operation id 4, CardFrom 2222222222222222, CardTo 1111111111111111, amount 20000.0, currency RUR, commission 200.0
+22:47:54.582 INFO  - Баланс карт: 2222222222222222: -19489.0, 1111111111111111: 38979.89 
+22:48:07.277 INFO  - Недостаточно средств для перевода
+22:51:51.553 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 2222222222222222, CardTo 1111111111111111, amount 9800.0, currency RUR, commission 98.0
+22:51:51.578 INFO  - Перевод подтвержден: Operation id 1, CardFrom 2222222222222222, CardTo 1111111111111111, amount 9800.0, currency RUR, commission 98.0
+22:51:51.579 INFO  - Баланс карт: 2222222222222222: 102.0, 1111111111111111: 19800.0 
+22:52:16.796 INFO  - Недостаточно средств для перевода
+22:53:59.747 INFO  - Недостаточно средств для перевода
+22:54:46.000 INFO  - Недостаточно средств для перевода
+22:55:16.423 INFO  - Недостаточно средств для перевода
+22:56:08.170 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9800.0, currency RUR, commission 98.0
+22:56:08.191 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9800.0, currency RUR, commission 98.0
+22:56:08.191 INFO  - Баланс карт: 1111111111111111: 102.0, 2222222222222222: 19800.0 
+22:56:51.194 INFO  - Недостаточно средств для перевода
+22:57:50.403 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 5.0, currency RUR, commission 0.05
+22:58:09.026 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 5.0, currency RUR, commission 0.05
+22:58:09.027 INFO  - Баланс карт: 1111111111111111: 9994.95, 2222222222222222: 10005.0 
+13:54:38.015 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9000.0, currency RUR, commission 90.0
+13:54:38.048 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 9000.0, currency RUR, commission 90.0
+13:54:38.048 INFO  - Баланс карт: 1111111111111111: 910.0, 2222222222222222: 19000.0 
+13:55:12.100 INFO  - Зарегестрирован новый перевод: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 5.0, currency RUR, commission 0.05
+13:55:20.406 INFO  - Перевод подтвержден: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 5.0, currency RUR, commission 0.05
+13:55:20.407 INFO  - Баланс карт: 1111111111111111: 904.95, 2222222222222222: 19005.0 
+14:00:20.534 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 5.0, currency RUR, commission 0.05
+14:00:28.153 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 5.0, currency RUR, commission 0.05
+14:00:28.153 INFO  - Баланс карт: 1111111111111111: 9994.95, 2222222222222222: 10005.0 
+14:27:22.254 INFO  - [[cardFromNumber : 111111111111111] - Номер карты отправителя должен быть 16 символов]
+14:27:27.044 INFO  - [[cardToNumber : 222222222222222] - Номер карты получателя должен быть 16 символов, [cardFromNumber : 111111111111111] - Номер карты отправителя должен быть 16 символов]
+14:27:31.589 INFO  - [[cardToNumber : 222222222222222] - Номер карты получателя должен быть 16 символов, [cardFromNumber : 111111111111111] - Номер карты отправителя должен быть 16 символов, [cardFromCVV : 11] - размер CVC / CVC2 должен находиться в диапазоне от 3 до 3]
+20:37:07.392 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+20:38:15.385 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+20:40:11.050 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+20:56:44.811 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+20:58:49.889 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+21:00:04.246 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+21:05:45.399 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+21:28:18.500 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+21:34:15.410 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+21:37:32.423 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+21:37:32.429 INFO  - Зарегестрирован новый перевод: Operation id 2, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+21:50:10.248 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+21:58:41.499 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+22:55:31.417 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+22:55:31.417 INFO  - Баланс карт: 1111111111111111: 8990.0, 2222222222222222: 11000.0 
+22:58:17.289 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+22:58:17.290 INFO  - Баланс карт: 1111111111111111: 998990.0, 2222222222222222: 1001000.0 
+22:58:17.337 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+23:10:28.886 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+23:10:39.307 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+23:10:39.307 INFO  - Баланс карт: 1111111111111111: 998990.0, 2222222222222222: 1001000.0 
+23:10:39.363 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+23:16:20.595 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+23:16:59.068 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+23:19:27.073 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+23:19:49.875 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+23:22:59.215 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+23:22:59.216 INFO  - Баланс карт: 1111111111111111: 998990.0, 2222222222222222: 1001000.0 
+23:26:22.415 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+23:26:22.416 INFO  - Баланс карт: 1111111111111111: 89.9, 2222222222222222: 110.0 
+23:28:15.129 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100.0, currency RUR, commission 1.0
+23:28:15.130 INFO  - Баланс карт: 1111111111111111: 98.99, 2222222222222222: 101.0 
+23:32:59.283 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100.0, currency RUR, commission 1.0
+23:33:19.510 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100.0, currency RUR, commission 1.0
+23:33:19.510 INFO  - Баланс карт: 1111111111111111: 98.99, 2222222222222222: 101.0 
+23:33:45.761 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100.0, currency RUR, commission 1.0
+23:34:09.126 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100.0, currency RUR, commission 1.0
+23:34:09.126 INFO  - Баланс карт: 1111111111111111: 98.99, 2222222222222222: 101.0 
+23:35:51.209 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100.0, currency RUR, commission 1.0
+23:35:51.210 INFO  - Баланс карт: 1111111111111111: 98.99, 2222222222222222: 101.0 
+23:38:38.682 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100.0, currency RUR, commission 1.0
+23:38:38.682 INFO  - Баланс карт: 1111111111111111: 998.99, 2222222222222222: 1001.0 
+23:38:38.730 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 100.0, currency RUR, commission 1.0
+23:41:10.592 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 10.0, currency RUR, commission 0.1
+23:41:10.593 INFO  - Баланс карт: 1111111111111111: 9989.9, 2222222222222222: 10010.0 
+23:41:10.644 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 10.0, currency RUR, commission 0.1
+23:42:52.149 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+23:42:52.180 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+23:42:52.180 INFO  - Баланс карт: 1111111111111111: 8990.0, 2222222222222222: 11000.0 
+23:53:55.271 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+23:53:55.271 INFO  - Баланс карт: 1111111111111111: 998990.0, 2222222222222222: 1001000.0 
+23:53:55.339 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 1000.0, currency RUR, commission 10.0
+23:53:55.438 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 10.0, currency RUR, commission 0.1
+23:53:55.439 INFO  - Баланс карт: 1111111111111111: 9989.9, 2222222222222222: 10010.0 
+23:53:55.463 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 10.0, currency RUR, commission 0.1
+01:50:40.166 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 10.0, currency RUR, commission 0.1
+01:50:40.173 INFO  - Баланс карт: 1111111111111111: 9989.9, 2222222222222222: 10010.0 
+01:50:40.223 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 10.0, currency RUR, commission 0.1
+01:55:50.801 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 10.0, currency RUR, commission 0.1
+01:58:02.610 INFO  - Зарегестрирован новый перевод: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 10.0, currency RUR, commission 0.1
+01:58:02.641 INFO  - Перевод подтвержден: Operation id 1, CardFrom 1111111111111111, CardTo 2222222222222222, amount 10.0, currency RUR, commission 0.1
+01:58:02.642 INFO  - Баланс карт: 1111111111111111: 9989.9, 2222222222222222: 10010.0 
